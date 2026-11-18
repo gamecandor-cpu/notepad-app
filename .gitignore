@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Android build
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+*.apk
+*.aab
+
+# iOS build
+ios/App/Pods/
+ios/App/build/
+ios/App/App/public/
+*.xcuserstate
+xcuserdata/
+DerivedData/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
